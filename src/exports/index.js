@@ -4,3 +4,6 @@ export { default as AnimeByGenre } from "../pages/AnimeByGenre.jsx";
 export { default as AnimeByRanking } from "../pages/AnimeByRanking.jsx";
 export { default as AnimeDetails } from "../pages/AnimeDetails.jsx";
 export { default as AnimeNews } from "../pages/AnimeNews.jsx";
+export { default as AllAnime } from "../pages/content/AllAnime.jsx";
+export { default as AllManga } from "../pages/content/AllManga.jsx";
+export { default as YourList } from "../pages/content/YourList.jsx";

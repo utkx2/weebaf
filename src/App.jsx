@@ -5,7 +5,10 @@ import {
     AnimeByGenre,
     AnimeByRanking,
     AnimeDetails,
-    AnimeNews
+    AnimeNews,
+    AllAnime,
+    AllManga,
+    YourList
 } from "./exports/index";
 import Footer from "./components/Footer";
 
@@ -24,6 +27,9 @@ function App() {
                             <Route path="/getonebyranking" element={<AnimeByRanking />} />
                             <Route path="/getanimebyid/:id" element={<AnimeDetails />} />
                             <Route path="/animenews" element={<AnimeNews />} />
+                            <Route path="/allanime" element={<AllAnime />} />
+                            <Route path="/allmanga" element={<AllManga />} />
+                            <Route path="/yourlist" element={<YourList />} />
                         </Routes>
                     </div>
                 </div>
